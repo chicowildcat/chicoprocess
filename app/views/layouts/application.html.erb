@@ -19,7 +19,8 @@
     <section>
       <ul class="left">
         <%= nav_link "Home", root_path %>
-        <%= nav_link "Old Websites", home_oldwebsite_path %>
+        <%= nav_link "Precedent", home_oldwebsite_path %>
+        <%= nav_link "Our Goal", home_about_path %>
         <% if current_user.try(:admin?) %>
           <%= nav_link "Admin", admin_path %>
         <% end %>
@@ -68,7 +69,7 @@
             <div class="row">
  
               <div class="six columns">
-                  <p>&copy; CSU Chico</p>
+                  <p>&copy; Copyright CSU Chico Construction Management</p>
               </div> 
             </div>
         </div>

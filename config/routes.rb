@@ -3,6 +3,7 @@ Chicoprocess::Application.routes.draw do
 
   get "home/index"
   match 'home/oldwebsite' => 'home#oldwebsite'
+  match 'home/about' => 'home#about'
   match 'admin' => 'admin#index'
   match 'admin/:id/become' => 'admin#become'
 

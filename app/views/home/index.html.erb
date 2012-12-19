@@ -3,9 +3,9 @@
     <div class="row">
       <div class="twelve columns hide-for-small">
         <div id="featured">
-          <img src="http://placehold.it/1200x500&text=1200x500 Slide Image 1" alt="slide image">
-          <img src="http://placehold.it/1200x500&text=1200x500 Slide Image 2" alt="slide image">
-          <img src="http://placehold.it/1200x500&text=1200x500 Slide Image 3" alt="slide image">
+          <%= image_tag("Construction-Managers3.jpg", :size => '1200x500', :style => "width:1200px;height:500px")%>
+          <%= image_tag("Construction-Managers2.jpg", :size => '1200x500', :style => "width:1200px;height:500px")%>
+          <%= image_tag("Construction-Managers.jpg", :size => '1200x500', :style => "width:1200px;height:500px")%>
         </div>
       <hr />
       </div>
@@ -17,7 +17,7 @@
  
       <div class="row">
         <div class="twelve columns show-for-small">
-          <img src="http://placehold.it/1200x700&text=Mobile Header">
+          <%= image_tag("Construction-Managers3.jpg", :size => '1200x700')%>
         </div>
       </div>
  
@@ -30,8 +30,8 @@
     <div class="twelve columns">
       <div class="row">
         <div class="seven columns">
-          <h4>This is a content section.</h4>
-          <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef. Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef. Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+          <h4>Chico State and AGCxml</h4>
+          <p>In collaboration with the Associated General Contractors of America (AGC), Tracy Gateway Business Park. California State University, Chico, is providing online prototype applications to local contractors participating in the U.S. Department of Transportation (DOT) Bond Education Program. The object of the program is to improve access to surety credit through open standards.  Students from Chico State University majoring in Business Project Management and Computer Science are involved in the management and development of the project.  Concurrently, students from Chico Stare will identify necessary data fields to establish the "AGC Standard Data Set for Projects out to Bid" and the "AGC Standard Data Set for Company Profile." These two sets from AGC and Caltrans can then be used to improve efficiency and drive down costs. <%= link_to "more...", home_about_path %></p>
         </div>
         <div class="five columns">
           <%= render "devise/registrations/new" %>
@@ -53,11 +53,38 @@
 
 
     <div class="eight columns">
-      <h4>This is a content section.</h4>
+      <h4>Features</h4>
       
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-      
-      <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-          
+      <p>The agcXML schemas include the exchange of information commonly included in the following document types:</p>
+
+      <div class="row">
+        <div class="one column"></div>
+        <div class="ten columns panel radius">
+          <div class="row">
+            <div class="one column"></div>
+            <div class="five columns">
+                <ul>
+                  <li>Request for Information (RFI)</li>
+                  <li>Request for Pricing/Proposals</li>
+                  <li>Owner/Contractor Agreements</li>
+                  <li>Schedule of Values</li>
+                  <li>Change Order</li>
+                </ul>
+            </div>
+            <div class="five columns">
+                <ul>
+                  <li>Application for Payment</li>
+                  <li>Supplemental Instructions</li>
+                  <li>Change Directive</li>
+                  <li>Bid, Payment, Performance, and Warranty Bonds</li>
+                  <li>Submittals</li>
+                </ul> 
+            </div>
+            <div class="one column"></div>
+          </div>
+        </div>
+        <div class="one column"></div>
+      </div>
+  
     </div>
   </div>

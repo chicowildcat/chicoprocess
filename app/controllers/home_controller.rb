@@ -3,4 +3,6 @@ class HomeController < ApplicationController
   end
   def oldwebsite
   end
+  def about
+  end
 end
